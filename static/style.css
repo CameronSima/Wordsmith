@@ -1,0 +1,124 @@
+body {
+	position: relative;
+	min-width: 916px;
+	min-height: 430px;
+}
+
+.letters {
+	font-size: 70;
+	font-weight: bold;
+	letter-spacing: 20;
+	font-family: courier;
+	color: blue;
+	position: relative;
+	display: inline;
+	line-height: 1;
+	cursor: pointer;
+	cursor: hand;
+
+
+}
+
+.word_letters {
+	font-size: 70;
+	font-weight: bold;
+	letter-spacing: 20;
+	font-family: courier;
+	color: blue;
+	position: relative;
+	display: inline;
+	line-height: 1;
+	cursor: pointer;
+	cursor: hand;
+
+
+}
+
+.letter_container {
+	position: absolute;
+	bottom: 45;
+	left: 50%;
+	margin-left: -140px;
+
+
+}
+
+#word_container {
+/*	display: inline-block;
+	padding-top: 100;*/
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin-left: -175;
+
+
+}
+
+#word {
+	font-size: 70;
+	font-weight: bold;
+	letter-spacing: .5;
+	font-family: courier;
+	color: green;
+	position: relative;
+	display: inline;
+	line-height: 1;
+
+}
+
+
+#top {
+	position: relative;
+}
+
+#bottom {
+	position: relative;
+	bottom: 0;
+}
+
+.top_scores {
+	width: 300;
+	padding: 20px 20px 20px 10px;
+	float: right;
+
+}
+
+.words {
+	
+	padding: 20;
+	width: 300;
+	float: left;
+
+}
+
+.controls {
+	position: absolute;
+	bottom: 0;
+
+}
+
+#current_score {
+	font-size: 50;
+	color: gold;
+	position: absolute;
+	bottom: 68px;
+	right: 60px;
+}
+
+.wordOrName {
+display: inline-block;
+}
+
+.number {
+	display: inline-block;
+	float: right;
+}
+
+#timer {
+	display: inline-block;
+	color: grey;
+	left: 44%;
+	font-weight: bold;
+	font-size: 50;
+	position: absolute;
+}
